@@ -17,7 +17,8 @@ export default function Gui() {
     
     
     gsap.set([DownRunes, UpperRunes, pentagram], {autoAlpha: .3, ease: "power3.inout"});
-    gsap.set([title, UpperRunes, DownRunes], {autoAlpha: .1, x: -550, ease: "power3.inout"});
+    gsap.set([title], {autoAlpha: .1, x: -550, ease: "power3.inout"});
+    gsap.set([UpperRunes, DownRunes], {autoAlpha: .1, x: 550, ease: "power3.inout"});
     
 
     gsap.to(UpperRunes, {duration: 2, ease: "power1.out", repeat: -1, yoyo: true, autoAlpha: 1});
