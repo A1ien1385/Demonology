@@ -13,7 +13,7 @@ export default function Main() {
     // const DownRunes = elements.getElementById('otherRunes2');
     const pentagram = elements.getElementById('pentagram');
     const circles = elements.getElementById('Pengtagram_x5F_circle');
-    const title = elements.getElementById('title');
+    const title = elements.getElementById('title_2_');
     
     
     gsap.set([UpperRunes, pentagram], {autoAlpha: .3, ease: "power3.inout"});

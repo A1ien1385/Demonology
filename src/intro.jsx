@@ -1,4 +1,4 @@
-
+import Nav from "./nav";
 
 function Intro() {
     return (
