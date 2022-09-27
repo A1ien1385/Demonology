@@ -2,13 +2,15 @@
 .App
 {
     background-color: black;
-    min-height: 100vh;
 }
+
 
 .background
 {
-    max-width: 80vw;
+    width: 80vw;
+    height: 100vh;
     position: relative;
     left: 50%;
     transform: translate(-50%);
 }
+

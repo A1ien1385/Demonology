@@ -1,0 +1,72 @@
+nav
+{
+    position: absolute;
+    background-color: $darkBrown;
+    // opacity: .2;
+    height: 10vh;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    border-top: 3px solid $dark-orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 1;
+    animation: moveUp 2s ease both;
+
+    .title_btn
+    {
+        font-family: "DiabloLight";
+        text-decoration: none;
+        color: $orange;
+        font-size: 32px;
+    }
+
+    .intro
+    {
+        color: $yellow;
+    }
+
+    .title_btn:hover
+    {
+        text-shadow: 0px 0px 12px $dark-orange;
+    }
+
+    .intro:hover
+    {
+        text-shadow: 0px 0px 12px $yellow;
+    }
+
+
+
+
+    @media (min-width: 360px) and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+    
+        .title_btn 
+        {
+            letter-spacing: 3px;
+            border-bottom: 1px solid $dark-orange;  
+              
+        }
+
+        .intro
+        {
+            border-bottom: 1px solid $yellow; 
+        }
+      }
+    
+    
+}
+
+@keyframes moveUp {
+    0%{ opacity: 0;
+       bottom: -10vh;
+    }
+    100%{  opacity: 1;
+        bottom: 0
+    }
+}
+
