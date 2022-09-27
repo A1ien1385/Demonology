@@ -17,6 +17,12 @@ function App() {
           <a href="/lilith" className="title_btn lilith">
             Lilith
           </a>
+          <a href="/lucifer" className="title_btn lucifer">
+            Lucifer
+          </a>
+          <a href="/samael" className="title_btn samael">
+            Samael
+          </a>
           <a href="/eligos" className="title_btn eligos">
             Eligos
           </a>
@@ -28,6 +34,9 @@ function App() {
           </a>
           <a href="/dantalion" className="title_btn dantalion">
             Dantalion
+          </a>
+          <a href="/scriptum" className="title_btn scriptum">
+            Post Scriptum
           </a>
         
       </nav>
