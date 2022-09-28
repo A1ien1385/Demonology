@@ -1,5 +1,12 @@
 .page_container--horizon
 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   
+
 .page_title
 {
     padding-top: 10px;
@@ -16,13 +23,13 @@ main
     background-repeat: no-repeat;
     width: 40vw;
     height: 55vh;
-    position: absolute;
+    // position: absolute;
     top: 10%;
     left: 50%;
-    transform: translateX(-50%);
+    // transform: translateX(-50%);
     cursor: pointer;
     border: 0;
-    transition: .3s;
+    // transition: .3s;
 }
 
 
@@ -39,6 +46,8 @@ main
     transform: translateX(0);
     backdrop-filter: blur(10px);
 }
+
+
 
 @media (max-width: 800px) {
     
@@ -86,3 +95,12 @@ main
 
 
 
+.page_description_content
+{
+    color: white;
+    width: 39%;
+    font-family: 'Abyssinica SIL', serif;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    line-height: 1.55rem;
+}
