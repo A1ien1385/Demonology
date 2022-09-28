@@ -1,0 +1,99 @@
+.page_container--horizon
+{
+.page_title
+{
+    padding-top: 10px;
+    color: $light-orange;
+    font-family: "DiabloLight";
+    text-align: center;
+}
+
+main
+{
+    background-image: url("../assets/DwarfkillsSuccub.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 55vh;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: 0;
+    transition: .3s;
+}
+
+main:hover
+{
+    
+    width: 42vw;
+    height: 57vh;
+}
+
+@media (max-width: 800px) {
+    
+
+    main
+    {
+        background-position: top;
+        width: 60vw;
+        height: 60vh;
+    }
+
+    main:hover
+    {
+        width: 62vw;
+        height: 62vh;
+    }
+
+  }
+
+  @media (min-width: 801px) and (max-width: 979px) {
+    
+    main
+    {
+        background-position: top;
+        width: 70vw;
+        height: 40vh;
+    }
+
+    main:hover
+    {
+        width: 72vw;
+        height: 42vh;
+    }
+
+    
+  }
+
+
+
+// @media (min-width: 980px) and (max-width: 1279px) {
+
+
+// .title_btn 
+// {
+//     letter-spacing: 1px;
+    
+//     font-size: 1rem;  
+// }
+
+// }
+
+}
+
+
+
+.activeArt
+{
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+}
