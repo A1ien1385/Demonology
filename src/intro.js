@@ -3,7 +3,7 @@ import { ReactComponent as Scene } from "./assets/BackgroundPage.svg";
 import gsap from "gsap";
 
 
-export default function Main() {
+export default function Intro() {
   const wrapper = useRef(null);
 
   useEffect(()=> {

@@ -5,7 +5,7 @@ function Nav() {
     return (
       <>
         <nav>
-        <a href="/intro" className="title_btn intro">
+        <a href="/" className="title_btn intro">
           Intro
         </a>  
         <a href="/praeambulum" className="title_btn intro">

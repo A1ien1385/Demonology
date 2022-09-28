@@ -1,6 +1,6 @@
 import Nav from "./nav";
 
-function Intro() {
+function Praeambulum() {
     return (
       <>
         <div className="intro_box">
@@ -14,4 +14,4 @@ function Intro() {
     );
   }
   
-  export default Intro;
+  export default Praeambulum;
