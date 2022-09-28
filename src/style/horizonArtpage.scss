@@ -128,8 +128,65 @@ main
 
 #animation
 {
-    // background-image: url("...");
-    background-color: red;
+     background-image: url("../assets/animation.jpg");
+     animation: pentagram 5s infinite linear;   
+
+     -webkit-box-shadow: inset 0px 0px 33px 38px rgba(0, 0, 0, 1);
+     -moz-box-shadow: inset 0px 0px 33px 38px rgba(0, 0, 0, 1);
+     box-shadow: inset 0px 0px 33px 38px rgba(0, 0, 0, 1);
+}
+
+@keyframes pentagram {
+    0% {background-position: 0 0;}
+    5% {background-position: 0 0;}
+
+    6% {background-position: -500px 0;}
+    10% {background-position: -500px 0;}
+
+    11% {background-position: -1000px 0;}
+    16% {background-position: -1000px 0;}
+
+    17% {background-position: -1500px 0;}
+    21% {background-position: -1500px 0;}
+
+    22% {background-position: -2000px 0;}
+    26% {background-position: -2000px 0;}
+
+    27% {background-position: -2500px 0;}
+    32% {background-position: -2500px 0;}
+
+    33% {background-position: -3000px 0;}
+    37% {background-position: -3000px 0;}
+
+    38% {background-position: -3500px 0;}
+    42% {background-position: -3500px 0;}
+
+    43% {background-position: -4000px 0;}
+    48% {background-position: -4000px 0;}
+
+    49% {background-position: -4500px 0;}
+    54% {background-position: -4500px 0;}
+
+    55% {background-position: -5000px 0;}
+    61% {background-position: -5000px 0;}
+
+    62% {background-position: -5500px 0;}
+    70% {background-position: -5500px 0;}
+
+    71% {background-position: -6000px 0;}
+    75% {background-position: -6000px 0;}
+
+    76% {background-position: -6500px 0;}
+    80% {background-position: -6500px 0;}
+
+    81% {background-position: -7000px 0;}
+    85% {background-position: -7000px 0;}
+
+    86% {background-position: -7500px 0;}
+    96% {background-position: -7500px 0;}
+  
+    99% {background-position: -7500px 0;}
+    100% {background-position: -8000px 0;}  
 }
 
 .animation
