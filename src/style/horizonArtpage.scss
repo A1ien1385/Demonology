@@ -25,11 +25,19 @@ main
     transition: .3s;
 }
 
-main:hover
+
+
+.activeArt
 {
-    
-    width: 42vw;
-    height: 57vh;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(0);
+    backdrop-filter: blur(10px);
 }
 
 @media (max-width: 800px) {
@@ -42,11 +50,7 @@ main:hover
         height: 60vh;
     }
 
-    main:hover
-    {
-        width: 62vw;
-        height: 62vh;
-    }
+    
 
   }
 
@@ -59,11 +63,7 @@ main:hover
         height: 40vh;
     }
 
-    main:hover
-    {
-        width: 72vw;
-        height: 42vh;
-    }
+    
 
     
   }
@@ -86,14 +86,3 @@ main:hover
 
 
 
-.activeArt
-{
-    position: fixed;
-    z-index: 1000;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: darkblue;
-}
