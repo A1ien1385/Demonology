@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from "react";
-import { ReactComponent as Scene } from "./assets/BackgroundPage.svg";
+import { ReactComponent as Scene } from "../assets/BackgroundPage.svg";
 import gsap from "gsap";
 
 

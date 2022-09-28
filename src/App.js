@@ -1,8 +1,8 @@
 import "./style/main.scss";
-import Nav from "./nav";
-import Intro from "./intro";
-import Praeambulum from "./praembulum";
-import Scriptum from "./scriptum";
+import Nav from "./components/nav";
+import Intro from "./components/intro";
+import Praeambulum from "./components/praembulum";
+import Scriptum from "./components/scriptum";
 
 function App() {
 
@@ -16,9 +16,9 @@ function App() {
       component = <Praeambulum />;
       break;
 
-      case "/scriptum":
-        component = <Scriptum />;
-        break;  
+    case "/scriptum":
+      component = <Scriptum />;
+      break;  
 
   }
   
