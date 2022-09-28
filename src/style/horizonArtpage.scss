@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-   
+    animation: appear 2s ease-out;
+    filter: blur(0);
 
 .page_title
 {
@@ -39,12 +40,13 @@ main
     position: fixed;
     z-index: 1000;
     margin: 0;
-    top: 0;
+    top: 5%;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     transform: translateX(0);
-    backdrop-filter: blur(10px);
+    // backdrop-filter: blur(10px);
+    background-color: black;
 }
 
 
@@ -103,4 +105,18 @@ main
     letter-spacing: 2px;
     font-size: 1.1rem;
     line-height: 1.55rem;
+}
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    
+    100%{
+        opacity: 1;
+        filter: blur(0);
+    }
+    
 }
