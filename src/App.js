@@ -28,15 +28,15 @@ function App() {
       break; 
 
     case "/lucifer":
-      component = <Lucifer/>;
+      component = <Lucifer/>
         break;
      
     case "/samael":
-      component = <Samael />;
+      component = <Samael />
         break;
   
     case "/eligos":
-      component = <Eligos />;
+      component = <Eligos />
         break;  
   
     case "/vapar":
@@ -52,7 +52,7 @@ function App() {
         break; 
 
     case "/scriptum":
-      component = <Scriptum />;
+      component = <Scriptum />
         break;    
   }
   
