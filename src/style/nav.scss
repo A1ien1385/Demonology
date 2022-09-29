@@ -31,6 +31,7 @@ nav
     .title_btn:hover
     {
         text-shadow: 0px 0px 12px $dark-orange;
+        color: lighten($color: $yellow, $amount: 30%);
     }
 
     .intro:hover,
