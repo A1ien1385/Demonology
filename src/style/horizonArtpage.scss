@@ -14,6 +14,8 @@
     color: $light-orange;
     font-family: "DiabloLight";
     text-align: center;
+    
+    animation: shinningEffect 9s 3s infinite;
 }
 
 main
@@ -246,4 +248,11 @@ main
 .page_desc_content_txt
 {
     color: $light-orange;
+}
+
+@keyframes shinningEffect {
+    0% { color: $light-orange; }
+    50% { color: white; }
+    100% { color: $light-orange; }
+    
 }

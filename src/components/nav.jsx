@@ -6,34 +6,34 @@ function Nav() {
       <>
         <nav>
         <a href="/" className="title_btn intro">
-          Intro
+          <span>t</span> Intro <span>t</span> 
         </a>  
         <a href="/praeambulum" className="title_btn intro">
-          Praeambulum
+        <span>t</span> Praeambulum <span>t</span>
         </a>
         <a href="/lilith" className="title_btn lilith">
-          Lilith
+        <span>t</span>  Lilith <span>t</span>
         </a>
         <a href="/lucifer" className="title_btn lucifer">
-          Lucifer
+        <span>t</span>  Lucifer <span>t</span>
         </a>
         <a href="/samael" className="title_btn samael">
-          Samael
+        <span>t</span>  Samael <span>t</span>
         </a>
         <a href="/eligos" className="title_btn eligos">
-          Eligos
+        <span>t</span>  Eligos <span>t</span>
         </a>
         <a href="/vapar" className="title_btn vapar">
-          Vapar
+        <span>t</span>  Vapar <span>t</span>
         </a>
         <a href="/amdusias" className="title_btn amdusias">
-          Amdusias
+        <span>t</span>  Amdusias <span>t</span>
         </a>
         <a href="/dantalion" className="title_btn dantalion">
-          Dantalion
+        <span>t</span> Dantalion <span>t</span>
         </a>
         <a href="/scriptum" className="title_btn scriptum">
-          Post Scriptum
+        <span>t</span>  Post Scriptum <span>t</span>
         </a>
       
     </nav>
