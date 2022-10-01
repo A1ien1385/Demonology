@@ -251,7 +251,7 @@ main
 }
 
 @keyframes shinningEffect {
-    0% { color: $light-orange; }
-    50% { color: white; }
-    100% { color: $light-orange; }
+    0% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
+    50% { color: white; text-shadow: 10px 0px 6px rgba(255, 255, 255, 1);}
+    100% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
 }
