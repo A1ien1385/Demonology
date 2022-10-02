@@ -10,6 +10,7 @@ import Eligos from "./components/eligos";
 import Vapar from "./components/vapar";
 import Amdusias from "./components/amdusias";
 import Dantalion from "./components/dantalion";
+import LilithTwo from "./components/lilithTwo";
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
     case "/lilith":
       component = <Lilith/>  
       break; 
+
+      case "/lilithTwo":
+        component = <LilithTwo/>  
+        break;   
 
     case "/lucifer":
       component = <Lucifer/>

@@ -134,6 +134,34 @@ main
     
 }
 
+#lilithTwo
+{
+    background-image: url("../assets/LilithCloser.jpg");
+
+}
+
+button
+{
+    background-color: black;
+    
+    
+}
+
+.showMore
+{
+    font-family: "Diablo";
+    color: $light-orange;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.backBtn
+{
+   position: fixed;
+   left: 50%;
+   bottom: 5%;
+}
+
 #lucifer
 {
     background-image: url("../assets/vertical.png");
