@@ -8,6 +8,7 @@ function LilithTwo(props) {
         <div className="page_container--horizon">
           <h1 className="page_title">Lilith</h1>
           <main id="lilithTwo" className="activeArt">
+          <div className="lilithName"></div>  
           <button className="backBtn"><a className="showMore" href="/lilith">Back</a></button>
           </main>
             
