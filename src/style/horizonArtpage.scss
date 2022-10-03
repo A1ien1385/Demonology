@@ -122,11 +122,12 @@ main
 
 .page_description_content
 {
+    
     color: white;
     width: 39%;
     font-family: 'Abyssinica SIL', serif;
     letter-spacing: 2px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.55rem;
 }
 
@@ -170,16 +171,14 @@ button
 
 .showMore
 {
+    margin-top: 20px;
     font-family: "Diablo";
     color: $light-orange;
     text-decoration: none;
     letter-spacing: 2px;
+    animation: shinningEffect 9s 3s infinite;
 }
 
-.showMore:hover
-{
-    color: white;
-}
 
 
 .backBtn
