@@ -52,6 +52,17 @@ main
 }
 
 
+@media (min-width: 980px) and (max-width: 1455px) {
+    
+    
+    .page_description_content
+    { 
+       font-size: .7rem;
+       line-height: 1.1rem;
+    }
+
+ }
+
 
 @media (max-width: 800px) {
     
@@ -61,6 +72,11 @@ main
         background-position: top;
         width: 60vw;
         height: 60vh;
+    }
+
+    .page_description_content
+    {
+       display: none;
     }
 
     
@@ -74,6 +90,11 @@ main
         background-position: top;
         width: 70vw;
         height: 40vh;
+    }
+
+    .page_description_content
+    {
+       display: none;
     }
 
     
@@ -159,6 +180,7 @@ button
 {
     color: white;
 }
+
 
 .backBtn
 {
