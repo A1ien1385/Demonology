@@ -27,7 +27,7 @@ export default function Intro() {
     // gsap.to(DownRunes, {duration: 1.7, x: 0});
     gsap.to(pentagram, {duration: 2, ease: "power1.out", repeat: -1, yoyo: true, autoAlpha: 1});
     gsap.to(circles, {duration: 15, ease: "none", rotate: 360, transformOrigin: "center", repeat: -1});
-    gsap.to(title, {duration: 1.7, x: 20});
+    gsap.to(title, {duration: 1.7, x: -20});
     gsap.to(title, {duration: 2, autoAlpha: 1, repeat: -1, yoyo: true})
 
    
