@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# App contains my digital art with jewish and christans demons.
+# Application is still in progress.
+# https://main.d5pv753xx06w.amplifyapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
