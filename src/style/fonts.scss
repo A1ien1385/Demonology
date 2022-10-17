@@ -1,7 +1,16 @@
-@font-face {
-    font-family: "DiabloLight";
-    src: local("DiabloLight"),
-    url("../fonts/diablolight-webfont.woff2") format("woff2"),
-    }
+// @font-face {
+//     font-family: "DiabloLight";
+//     src: local("DiabloLight"),
+//     url("../fonts/diablolight-webfont.woff2") format("woff2"),
+
+//     }
+
+
+    @font-face {
+        font-family: 'DiabloLight';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Diablo Heavy'), url('../fonts/diablo.woff') format('woff');
+        }
 
     
