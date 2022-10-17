@@ -1,4 +1,4 @@
-# App contains my digital art with jewish and christans demons.
+# App contains my digital art with jewish and christians demons.
 # Application is still in progress.
 # https://main.d5pv753xx06w.amplifyapp.com/
 
