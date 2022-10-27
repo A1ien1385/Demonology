@@ -11,6 +11,7 @@ import Vapar from "./components/vapar";
 import Amdusias from "./components/amdusias";
 import Dantalion from "./components/dantalion";
 import LilithTwo from "./components/lilithTwo";
+import LuciferTwo from "./components/luciferTwo";
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
     case "/lucifer":
       component = <Lucifer/>
         break;
+
+        case "/luciferTwo":
+        component = <LuciferTwo/>  
+        break;   
      
     case "/samael":
       component = <Samael />
