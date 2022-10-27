@@ -10,7 +10,7 @@
 
 .page_title
 {
-    padding-top: 10px;
+    padding-top: 40px;
     color: $light-orange;
     font-family: "DiabloLight";
     text-align: center;
@@ -25,7 +25,7 @@ main
     background-size: contain;
     background-repeat: no-repeat;
     width: 40vw;
-    height: 30vh;
+    height: 50vh;
     // position: absolute;
     top: 10%;
     left: 50%;
@@ -42,7 +42,7 @@ main
     position: fixed;
     z-index: 1000;
     margin: 0;
-    top: 5%;
+    top: 50px;
     left: 0;
     width: 100vw;
     height: 80vh;
