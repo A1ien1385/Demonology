@@ -10,6 +10,7 @@ function Vapar(props) {
       return (
         <>
         <div className="page_container--horizon">
+        <div className="banner vaparBanner"></div>
           <h1 className="page_title">Vapar</h1>
           <main id="vapar"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
           </main>

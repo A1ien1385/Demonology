@@ -10,6 +10,7 @@ function Samael(props) {
       return (
         <>
         <div className="page_container--horizon">
+        <div className="banner samaelBanner"></div>
           <h1 className="page_title">Samael</h1>
           <main id="samael"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
           </main>

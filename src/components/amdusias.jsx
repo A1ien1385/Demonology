@@ -10,6 +10,7 @@ function Amdusias(props) {
       return (
         <>
         <div className="page_container--horizon">
+        <div className="banner amdusiasBanner"></div>
           <h1 className="page_title">Amdusias</h1>
           <main id="amdusias"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
           </main>

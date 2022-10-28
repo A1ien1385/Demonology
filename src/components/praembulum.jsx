@@ -10,6 +10,7 @@ function Praeambulum(props) {
     return (
       <>
       <div className="page_container--horizon">
+      <div className="banner preambulumhBanner"></div>
         <h1 className="page_title">Praeambulum</h1>
         <main id="succub"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
         </main>

@@ -6,6 +6,7 @@ function Scriptum() {
     return (
       <>
       <div className="page_container--horizon">
+      <div className="banner scriptumBanner"></div>
         <h1 className="page_title">Post Scriptum</h1>
         <div id="animation" className="animation">
         </div>

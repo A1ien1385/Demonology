@@ -10,6 +10,7 @@ function Dantalion(props) {
       return (
         <>
         <div className="page_container--horizon">
+        <div className="banner dantalionBanner"></div>
           <h1 className="page_title">Dantalion</h1>
           <main id="dantalion"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
           </main>

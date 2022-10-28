@@ -10,6 +10,7 @@ function Eligos(props) {
       return (
         <>
         <div className="page_container--horizon">
+        <div className="banner eligosBanner"></div>
           <h1 className="page_title">Eligos</h1>
           <main id="eligos"  onClick={toggleClass} className={isActive ? 'activeArt' : null}>
           </main>
