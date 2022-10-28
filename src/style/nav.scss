@@ -46,13 +46,15 @@ nav
     @media (max-width: 800px) {
         display: flex;
         flex-direction: column;
-        height: 40vh;
+        height: 20vh;
         border-top: 0;
-        top: auto;
-        bottom: 0;
+        top: 0;
+        bottom: auto;
     
         .title_btn 
         {
+            line-height: 10px;
+            font-size: 10px;
             letter-spacing: 3px;
             border-bottom: 1px solid $orange;  
         }
@@ -67,15 +69,17 @@ nav
       @media (min-width: 801px) and (max-width: 979px) {
         display: flex;
         flex-direction: column;
-        height: 40vh;
+        height: 20vh;
         border-top: 0;
-        top: auto;
-        bottom: 0;
+        top: 0;
+        bottom: auto;
 
         .title_btn 
         {
+            line-height: 10px;
+            font-size: 10px;
             letter-spacing: 1px;
-            font-size: 1.1rem;  
+              
         }
     
       }
@@ -88,7 +92,6 @@ nav
     .title_btn 
     {
         letter-spacing: 1px;
-        
         font-size: 1rem;  
     }
 
