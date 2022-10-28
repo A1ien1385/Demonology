@@ -1,5 +1,5 @@
 # App contains my digital art with jewish and christians demons.
-# Application is still in progress.
+# Application is still under development.
 # https://main.d5pv753xx06w.amplifyapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
