@@ -15,6 +15,7 @@ import LuciferTwo from "./components/luciferTwo";
 import LuciferThree from "./components/luciferThree";
 import LuciferFour from "./components/luciferFour";
 import AmdusiasTwo from "./components/amdusiasTwo";
+import LuciferFive from "./components/luciferFive";
 
 
 function App() {
@@ -51,6 +52,10 @@ function App() {
 
         case "/luciferFour":
         component = <LuciferFour/>  
+        break;   
+
+        case "/luciferFive":
+        component = <LuciferFive/>  
         break;   
      
     case "/samael":
