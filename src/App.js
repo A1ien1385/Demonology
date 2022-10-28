@@ -14,6 +14,7 @@ import LilithTwo from "./components/lilithTwo";
 import LuciferTwo from "./components/luciferTwo";
 import LuciferThree from "./components/luciferThree";
 import LuciferFour from "./components/luciferFour";
+import AmdusiasTwo from "./components/amdusiasTwo";
 
 
 function App() {
@@ -66,6 +67,10 @@ function App() {
 
     case "/amdusias":
       component = <Amdusias/>  
+        break;  
+
+        case "/amdusiasTwo":
+      component = <AmdusiasTwo/>  
         break;  
 
     case "/dantalion":
