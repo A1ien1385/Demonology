@@ -13,6 +13,7 @@ nav
     align-items: center;
     opacity: 1;
     animation: moveUp 2s ease both;
+    animation: borderBottomAnim 12s ease both infinite;
 
     .title_btn
     {
@@ -50,6 +51,8 @@ nav
         border-top: 0;
         top: 0;
         bottom: auto;
+        background-color: rgba(0, 0, 0, .5);
+        border-bottom: 0;
     
         .title_btn 
         {
@@ -73,6 +76,8 @@ nav
         border-top: 0;
         top: 0;
         bottom: auto;
+        background-color: rgba(0, 0, 0, .5);
+        border-bottom: 0;
 
         .title_btn 
         {
@@ -87,7 +92,7 @@ nav
 
 
 @media (min-width: 980px) and (max-width: 1279px) {
-    
+   
 
     .title_btn 
     {
@@ -97,6 +102,8 @@ nav
 
   }
 
+
+  
 
 
 
@@ -110,6 +117,8 @@ nav
 }
 
 }
+
+
 
 span
 {
@@ -130,4 +139,21 @@ span
     display: none;
   }
 
+  }
+
+  @keyframes borderBottomAnim {
+    0%{
+        border-bottom: 1px solid $dark-orange;
+          
+    }
+    50%{
+        border-bottom: 1px solid white;
+
+        -webkit-box-shadow: 0px 13px 16px -12px rgba(255, 255, 255, 1);
+-moz-box-shadow: 0px 13px 16px -12px rgba(255, 255, 255, 1);
+box-shadow: 0px 13px 16px -12px rgba(255, 255, 255, 1);
+    }
+    100%{
+        border-bottom: 1px solid $dark-orange;
+    }
   }
