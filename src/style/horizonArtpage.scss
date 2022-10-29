@@ -343,11 +343,7 @@ button
     color: $light-orange;
 }
 
-@keyframes shinningEffect {
-    0% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
-    50% { color: white; text-shadow: 10px 0px 6px rgba(255, 255, 255, 1);}
-    100% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
-}
+
 
 .lilithBanner
 {
@@ -411,4 +407,29 @@ button
 .scriptumBanner
 {
     background-image: url("../assets/bgScriptum.jpg");
+}
+
+
+.prevNextBox
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    
+    .prevNext
+    {
+        font-family: "DiabloLight";
+        text-decoration: none;
+        color: $orange;
+        animation: shinningEffect 9s 3s infinite;
+    }
+}
+
+
+
+@keyframes shinningEffect {
+    0% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
+    50% { color: white; text-shadow: 10px 0px 6px rgba(255, 255, 255, 1);}
+    100% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
 }
