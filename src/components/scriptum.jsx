@@ -15,7 +15,6 @@ function Scriptum() {
           </h5></div>
           <div className="prevNextBox">
             <a className="prevNext" href="/dantalion">prev</a>
-            <a className="prevNext" href="/">back to intro page</a>
                </div>
       </div> 
     </>

@@ -38,6 +38,9 @@ export default function Intro() {
     <>
       <div ref={wrapper} className="background">
         <Scene/>
+        <div className="prevNextBox">
+            <a className="prevNext introBtn" href="/praeambulum">next page</a>
+        </div>
       </div>
 
     </>

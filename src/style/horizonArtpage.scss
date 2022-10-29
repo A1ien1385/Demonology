@@ -86,10 +86,10 @@ main
         height: 30vh;
     }
 
-    .page_description_content
-    {
-       display: none;
-    }
+    // .page_description_content
+    // {
+    //    display: none;
+    // }
 
     
 
@@ -104,10 +104,10 @@ main
         height: 20vh;
     }
 
-    .page_description_content
-    {
-       display: none;
-    }
+    // .page_description_content
+    // {
+    //    display: none;
+    // }
 
     
 
@@ -423,6 +423,11 @@ button
         text-decoration: none;
         color: $orange;
         animation: shinningEffect 9s 3s infinite;
+    }
+
+    .introBtn
+    {
+        font-size: 1.5rem;
     }
 }
 
