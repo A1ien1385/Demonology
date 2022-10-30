@@ -16,7 +16,7 @@ import LuciferThree from "./components/luciferThree";
 import LuciferFour from "./components/luciferFour";
 import AmdusiasTwo from "./components/amdusiasTwo";
 import LuciferFive from "./components/luciferFive";
-
+import Succubus from "./components/succubus";
 
 function App() {
 
@@ -37,6 +37,11 @@ function App() {
       case "/lilithTwo":
         component = <LilithTwo/>  
         break;   
+        
+        case "/succubus":
+          component = <Succubus/>  
+          break;   
+        
 
     case "/lucifer":
       component = <Lucifer/>
