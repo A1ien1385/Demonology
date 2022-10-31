@@ -17,6 +17,8 @@ import LuciferFour from "./components/luciferFour";
 import AmdusiasTwo from "./components/amdusiasTwo";
 import LuciferFive from "./components/luciferFive";
 import Succubus from "./components/succubus";
+import SuccubusTwo from "./components/succubusTwo";
+import SuccubusThree from "./components/succubusThree";
 
 function App() {
 
@@ -42,6 +44,13 @@ function App() {
           component = <Succubus/>  
           break;   
         
+          case "/succubusTwo":
+          component = <SuccubusTwo/>  
+          break;   
+
+          case "/succubusThree":
+          component = <SuccubusThree/>  
+          break;   
 
     case "/lucifer":
       component = <Lucifer/>
