@@ -6,7 +6,7 @@ function LilithTwo(props) {
       return (
         <>
         <div className="page_container--horizon">
-          <h1 className="page_title">Lilith</h1>
+          
           <main id="lilithTwo" className="activeArt">
           <div className="lilithName large_art"></div>  
           <button className="backBtn"><a className="showMore" href="/lilith">Back</a></button>

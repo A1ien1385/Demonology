@@ -165,16 +165,26 @@ main
 #succubus
 {
     background-image: url("../assets/Succubus.jpg");
+    width: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
 
 #succubusTwo
 {
     background-image: url("../assets/Succubus2.jpg");
+    width: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #succubusThree
 {
     background-image: url("../assets/Succubus3.jpg");
+    width: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #lilith
@@ -453,3 +463,4 @@ button
     50% { color: white; text-shadow: 10px 0px 6px rgba(255, 255, 255, 1);}
     100% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
 }
+
