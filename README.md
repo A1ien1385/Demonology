@@ -2,6 +2,21 @@
 # Application is still under development.
 # https://main.d5pv753xx06w.amplifyapp.com/
 
+# Problems:
+# 
+# the application refused to display the diablo font
+# I added woff files
+# problem status: solved
+#
+# the application refused to display the centurion font in the svg file in the intro component.
+# I had to convert lettering to curves in Illustrator file
+# problem status: solved 
+#
+# in the mobile version, the navigation covered the application
+# I turned off navigation on mobile versions of the application
+# I just left the buttons: prev page, next page.
+# problem status: solved 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
