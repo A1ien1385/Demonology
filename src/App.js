@@ -19,6 +19,7 @@ import LuciferFive from "./components/luciferFive";
 import Succubus from "./components/succubus";
 import SuccubusTwo from "./components/succubusTwo";
 import SuccubusThree from "./components/succubusThree";
+import SamaelTwo from "./components/samaelTwo";
 
 function App() {
 
@@ -74,6 +75,10 @@ function App() {
      
     case "/samael":
       component = <Samael />
+        break;
+
+        case "/samaelTwo":
+      component = <SamaelTwo />
         break;
   
     case "/eligos":
