@@ -225,6 +225,7 @@ main
     //insert art here
 }
 
+
 button
 {
     background-color: black;
@@ -470,5 +471,10 @@ button
     0% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
     50% { color: white; text-shadow: 10px 0px 6px rgba(255, 255, 255, 1);}
     100% { color: $light-orange; text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);}
+}
+
+.samaelBanner
+{
+    background-image: url("../assets/SamaelBG.jpg");
 }
 
